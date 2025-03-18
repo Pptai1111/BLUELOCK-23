@@ -261,7 +261,6 @@ const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
     </group>
   );
 };
-
 export const Book = ({ ...props }) => {
   const [page] = useAtom(pageAtom);
   const [delayedPage, setDelayedPage] = useState(page);
